@@ -22,7 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    package="com.example.bluetooth_print"
+    namespace "com.example.bluetooth_print"
     compileSdkVersion 34
 
     defaultConfig {
